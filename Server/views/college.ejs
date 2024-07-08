@@ -1,0 +1,356 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sikkha</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.html">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/css/themify-icons.css">
+    <link rel="stylesheet" href="/css/meanmenu.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <!-- header-start -->
+    
+    
+    <header id="home">
+        <div class="header-area">
+            <!-- header-bottom -->
+            <div class="header-bottom-area header-sticky" style="transition: .6s;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logo/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6 col-6">
+                            <div class="main-menu f-right">
+                                <nav id="mobile-menu" style="display: block;">
+                                    <ul>
+                                        <li>
+                                            
+                                        <a href="../client/index.html">Home</a>
+                                                
+                                        </li>
+                                        <li>
+                                            <a href="#about">PAGES</a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="about_us.html">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="advisors.html">Advisors</a>
+                                                </li>
+                                                <li>
+                                                    <a href="advisors_details.html">Advisors Details</a>
+                                                </li>
+                                                <li>
+                                                    <a href="faq.html">FAQ</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="course_01.html">College</a>
+                                            
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="contact_us.html">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <!-- /end header-bottom -->
+        </div>
+    </header>
+    <!-- header-end -->
+    <!-- slider-start -->
+    <div class="slider-area">
+        <div class="pages-title">
+            <div class="single-slider slider-height slider-height-breadcrumb d-flex align-items-center" style="background-image: url('<%= collegeImage %>');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider-content slider-content-breadcrumb text-center">
+                                <h1 class="white-color f-700">College Details</h1>
+                                <nav class="text-center" aria-label="breadcrumb">
+                                    <ol class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Course Details</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider-end -->
+    <div class="course-details-area gray-bg pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="single-course-details-area mb-30">
+                        <div class="course-details-thumb">
+                            <img src="img/courses/course_details_thumb.jpg" alt="">
+                        </div>
+                        <div class="container-fluid" >
+                            <div class="single-course-details white-bg"  style="width: 100vw;">
+                                <div class="course-details-title mb-20">
+                                    <h1><%= collegeName %></h1>
+                                </div>
+                                <div class="course-details-tabs">
+                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Courses</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">College Codes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-reviews-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-contact" aria-selected="false">Reviews</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <div class="course-details-overview-top">
+                                                <p class="course-details-overview-para"> <%= collegeOverview %></p>
+                                            </div>
+                                            <div class="course-details-overview-bottom d-flex justify-content-between mt-25">
+                                                <div class="course-overview-info-left">
+                                                    <div class="course-overview-info-advisor mt-10">
+                                                        <span class="gray-color">Location : <span class="primary-color"><%= collegeLocation %></span></span>
+                                                    </div>
+                                                    <div class="course-overview-student-lecture mt-10">
+                                                        <span class="gray-color">College Official Website <span class="primary-color"><a href="https://www.<%= collegeWebsite %>"><%= collegeWebsite %></a></span></span>
+                                                    </div>
+                                                    <div class="course-overview-time-delay mt-10">
+                                                        <span class="gray-color">Admission Helpline Number <span class="primary-color"><%= admissionHelpline %></span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                            <ul>
+                                                <% courses.forEach(course => { %>
+                                                    <li><%= course.toUpperCase() %></li>
+                                                <% }) %>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                            <div class="widget mb-40 widget-padding white-bg">
+                                                <h4 class="widget-title">KCET College Code</h4>
+                                                <p><%= collegeCode %></p>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">
+                                            <h2>Reviews:</h2>
+                                            <% reviews.forEach(review => { %>
+                                                <div>
+                                                    <p><strong>User:</strong> <%= review.username %></p>
+                                                    <!-- <p><strong>Date:</strong> <%= review.created_at %></p> -->
+                                                    <p><%= review.review_text %></p>
+                                                </div>
+                                            <% }); %>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h5 >Top Colleges based on User's views</h5>
+    <div class="top-colleges">
+        <% topColleges.forEach(college => { %>
+            <div id="<%= college.id %>">
+                <h3><%= college.name %></h3>
+            </div>
+        <% }) %>
+    </div>
+    <div class="form-container">
+        <h3 id="form-heading">Add a Review</h3>
+        <form action="/addReview" method="post" class="reviewform">
+            <input type="hidden" name="collegeId" value="<%= collegeId %>">
+            <input type="text" name="username" placeholder="Enter username" >
+            <textarea name="reviewText" rows="4" placeholder="Write your review here..." id="form-text"></textarea>
+            <button type="submit" id="form-button">Submit Review</button>
+        </form>
+    </div>
+    <!-- footer start -->
+    <footer>
+        <div class="footer-area primary-bg pt-150">
+            <div class="container">
+                <div class="footer-top pb-35">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-logo">
+                                    <img src="img/logo/logo.png" alt="">
+                                </div>
+                                <div class="footer-para">
+                                    <p>Welcome to our Engineering College Uni-Guide website, Your gateway to a universe of educational possibilities.</p>
+                                </div>
+                                <div class="footer-socila-icon">
+                                    <span>Follow Us</span>
+                                    <div class="footer-social-icon-list">
+                                        <ul>
+                                            <li><a href="#"><span class="ti-facebook"></span></a></li>
+                                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
+                                            <li><a href="#"><span class="ti-dribbble"></span></a></li>
+                                            <li><a href="#"><span class="ti-google"></span></a></li>
+                                            <li><a href="#"><span class="ti-pinterest"></span></a></li>
+                                            <li><a href="#"><span class="ti-instagram"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-heading">
+                                    <h1>Quick Links</h1>
+                                </div>
+                                <div class="footer-menu clearfix">
+                                    <ul>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Condition</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Consultation</a></li>
+                                        <li><a href="#">Team Member</a></li>
+                                        <li><a href="#">Our Services</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Who we are</a></li>
+                                        <li><a href="#">Get a Quote</a></li>
+                                        <li><a href="#">Recent Post</a></li>
+                                        <li><a href="#">Who we are</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4  col-md-6">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-heading">
+                                    <h1>Contact Us</h1>
+                                </div>
+                                <div class="footer-contact-list">
+                                    <div class="single-footer-contact-info">
+                                        <span class="ti-headphone "></span>
+                                        <span class="footer-contact-list-text">+003 (1234) 7894</span>
+                                    </div>
+                                    <div class="single-footer-contact-info">
+                                        <span class="ti-email "></span>
+                                        <span class="footer-contact-list-text">youremail@gmail.com</span>
+                                    </div>
+                                    <div class="single-footer-contact-info">
+                                        <span class="ti-location-pin"></span>
+                                        <span class="footer-contact-list-text">123 New Street, Bengaluru,India</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom pt-25 pb-25">
+                    <div class="container">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JS here -->
+    <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/one-page-nav-min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/ajax-form.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/jquery.scrollUp.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/jquery.barfiller.js"></script>
+    <script src="/js/jquery.meanmenu.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        const handleClick = (event) => {
+            event.preventDefault(); // Prevent the default action
+
+            // Extract the ID from the parent div's ID attribute
+            const id = event.currentTarget.getAttribute('id');
+
+            // Construct the URL with the extracted ID
+            const url = `http://localhost:8000/college/${id}`;
+
+            console.log(`Fetching data from: ${url}`);
+
+            // Redirect to the specified URL
+            window.location.href = url;
+        }
+
+        document.querySelectorAll('.top-colleges div').forEach(element => {
+            element.addEventListener('click', handleClick);
+        });
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= collegeName %> Courses</title>
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style> -->
+</head>
+<body>
+    <h1>Courses Offered by <%= collegeName %></h1>
+    <ul>
+        <% courses.forEach(courses => { %>
+            <li><%= courses.CourseName.toUpperCase() %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>
+
+
+
+
+                                        
